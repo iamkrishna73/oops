@@ -3,6 +3,7 @@ package ConstructorBasic;
 class A{
     A(){
         this(5);
+        System.out.println("hello");
         System.out.println("Super class first constructor");
 
     }
@@ -22,7 +23,7 @@ class B extends A{
 
 public class ConstructorChaining {
     public static void main(String [] args){
-        B b1 = new B(10);
+        //B b1 = new B(10);
         B b2 = new B();
     }
 }
